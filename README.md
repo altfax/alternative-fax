@@ -13,21 +13,16 @@ Sure, thanks! Please fork the repo and start a branch for the feature you'd like
 Here's what's next:
 
  1) Geolocation
-
-    ~a) By IP address~
-
-    b) By address or zip code via form
+ ~~..a) By IP address~~
+ ..b) By address or zip code via form
 
 
- ~2) Hit [the Sunlight Labs API](https://sunlightlabs.github.io/congress/legislators.html#legislatorslocate) to find the representatives and congress people for that location~
+ ~~2) Hit [the Sunlight Labs API](https://sunlightlabs.github.io/congress/legislators.html#legislatorslocate) to find the representatives and congress people for that location~~
 
  3) Retrieve and display information
-
-    ~a) Find most recent fax number~
-
-    ~b) Display information for three representatives~
-
-    c) Actually make it look like, you know, not shit
+ ..~~a) Find most recent fax number~~
+ ..~~b) Display information for three representatives~~
+ ..c) Actually make it look like, you know, not shit
 
  4) Create a fax
 
