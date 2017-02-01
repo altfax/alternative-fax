@@ -1,5 +1,4 @@
 require 'yaml'
-require 'pry'
 
 class Seed
     attr_accessor :seed, :official
