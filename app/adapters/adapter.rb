@@ -32,6 +32,7 @@ module Adapter
             officials = []
             legislator_ids.each do |id|
                 official = Official.find_by(bioguide_id: id)
+                official.recent_fax_num = FaxFinder.new(official).recent
                 officials.push(official)
             end
             return officials
