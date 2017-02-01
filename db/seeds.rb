@@ -13,5 +13,5 @@ data = YAML::load_file(seed_file)
 
 data.each do |seed|
     o = Seed.new(seed)
-    b = o.initial_parse
+    o.parse
 end

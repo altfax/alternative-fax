@@ -8,7 +8,7 @@ class Seed
         @seed = seed
     end
 
-    def initial_parse
+    def parse
         self.official = create_official
 
         identifier_obj = @seed["id"]
@@ -48,6 +48,8 @@ class Seed
 
         identifier = Identifier.new(id)
         identifier.official = self.official
+        identifier.official.bioguide_id = identifier.bioguide
+        official.save!
         identifier.save!
 
         return identifier

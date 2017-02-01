@@ -1,0 +1,4 @@
+<h1>Results</h1>
+<% @legislators.each do |legislator| %>
+    <%= render partial: 'legislators/bio', locals: {legislator: legislator}%>
+<% end %>

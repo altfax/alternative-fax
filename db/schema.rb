@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170201042625) do
+ActiveRecord::Schema.define(version: 20170201045935) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 20170201042625) do
     t.datetime "birthday"
     t.string   "gender"
     t.string   "religion"
+    t.string   "bioguide_id"
   end
 
   create_table "terms", force: :cascade do |t|
