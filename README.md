@@ -13,19 +13,24 @@ Sure, thanks! Please fork the repo and start a branch for the feature you'd like
 Here's what's next:
 
 1. Geolocation
+
   *.~~By IP address~~
+  
   *.By address or zip code via form
 
 2. ~~Hit [the Sunlight Labs API](https://sunlightlabs.github.io/congress/legislators.html#legislatorslocate) to find the representatives and congress people for that location~~
 
 3. Retrieve and display information
+
   *. Find most recent fax number
+  
   *. Display information for three representatives
+  
   *. Actually make it look like, you know, not shit
 
- 4. Create a fax
+4. Create a fax
 
- 5. Send a fax
+5. Send a fax
 
 #Extensions
  1. WYSYWIG fax editor
