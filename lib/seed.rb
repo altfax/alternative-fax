@@ -21,14 +21,14 @@ class Seed
     end
 
     def create_official
-        new_official = Official.new()
-        new_official.first_name = @seed["name"]["first"]
-        new_official.last_name = @seed["name"]["last"]
-        new_official.full_name = @seed["name"]["official_full"]
-        new_official.birthday = @seed["bio"]["birthday"]
-        new_official.gender = @seed["bio"]["gender"]
-        new_official.religion = @seed["bio"]["religion"]
-        new_official.save!
+        new_official = Official.create!(
+            first_name: @seed["name"]["first"],
+            last_name: @seed["name"]["last"],
+            full_name: @seed["name"]["official_full"],
+            birthday: @seed["bio"]["birthday"],
+            gender: @seed["bio"]["gender"],
+            religion: @seed["bio"]["religion"]
+        )
 
         return new_official
     end
