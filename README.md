@@ -32,6 +32,20 @@ Here's what's next:
 
 5. Send a fax
 
+6. Register users with [Fabric](https://docs.fabric.io/web/digits/sign-in-with-phone-number.html)
+  * Persist user token, IP address, saved location, representatives for that location, sent faxes
+  * Will not collect any names or passwords 
+
+7. Security 'n stuff
+  * Throttle incoming and outgoing requests
+  * Install Figaro for API keys
+  * Limit amount of faxes users can send for reps not in their district
+
+8. Figure out how to not spend a trillion dollars
+  * Sell my soul
+  * Or ads
+  * Or charge?
+
 #Extensions
  1. WYSYWIG fax editor
 
