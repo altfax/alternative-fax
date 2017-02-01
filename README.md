@@ -14,19 +14,19 @@ Here's what's next:
 
 1. Geolocation
 
-  *.~~By IP address~~
+  * ~~By IP address~~
   
-  *.By address or zip code via form
+  * By address or zip code via form
 
 2. ~~Hit [the Sunlight Labs API](https://sunlightlabs.github.io/congress/legislators.html#legislatorslocate) to find the representatives and congress people for that location~~
 
 3. Retrieve and display information
 
-  *. Find most recent fax number
+  * ~~Find most recent fax number~~
   
-  *. Display information for three representatives
+  * ~~Display information for three representatives~~
   
-  *. Actually make it look like, you know, not shit
+  * Actually make it look like, you know, not shit
 
 4. Create a fax
 
